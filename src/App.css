@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.Link {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #B9B7BD;
+  margin: 1em;
+  padding: 2em;
+}
+
+a {
+  color: #868B8E;
+  font-size: x-large;
+}
+
+/*
+Scallop Seashell
+#E7D2CC
+
+Pewter
+#B9B7BD
+
+Gray
+#868B8E
+
+Ivory
+#EEEDE7
+*/
