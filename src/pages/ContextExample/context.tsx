@@ -1,4 +1,4 @@
-import React, { createContext } from 'react';
+import { createContext } from 'react';
 import { UserType } from '../../types/user';
 
 const DEFAULT_USER: UserType = {

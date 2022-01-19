@@ -5,6 +5,7 @@ import App from './App';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PropsExample from './pages/PropsExample';
 import ContextExample from './pages/ContextExample';
+import PropsEditExample from './pages/PropsEditExample';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.render(
         <Route path="/" element={<App/>}/>
         <Route path="/props" element={<PropsExample/>}/>
         <Route path="/context" element={<ContextExample/>}/>
+        <Route path="/props-edit" element={<PropsEditExample/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

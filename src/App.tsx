@@ -11,6 +11,9 @@ function App() {
       <div className="Link">
         <Link to="/context">Context</Link>
       </div>
+      <div className="Link">
+        <Link to="/props-edit">Props edit</Link>
+      </div>
     </div>
   );
 }

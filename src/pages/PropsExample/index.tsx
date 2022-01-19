@@ -10,8 +10,10 @@ export default function PropsExample() {
     lastName: 'Doe',
     email: 'jdoe@email.com'
   }
-    return <div className='page'>
+  
+  return (
+    <div className='page'>
       <Header user={user}></Header>
       <Details user={user}></Details>
-    </div>;
+    </div>);
 }
