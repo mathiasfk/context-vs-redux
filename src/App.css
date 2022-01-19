@@ -16,6 +16,32 @@ a {
   font-size: x-large;
 }
 
+.page {
+  padding-left: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: x-large;
+}
+
+.field-set {
+  display: flex;
+  flex-direction: row;
+  font-size: x-large;
+}
+
+.field-name {
+  padding-right: 5px;
+  font-weight: 600;
+}
+
 /*
 Scallop Seashell
 #E7D2CC
