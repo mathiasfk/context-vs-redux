@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserType } from '../../../types/user';
+import { UserType } from '../../../types/UserType';
 
 export const Header = (props:any) => {
     const currentUser: UserType = props.user;

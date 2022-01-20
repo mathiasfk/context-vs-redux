@@ -1,6 +1,6 @@
 import React from 'react';
 import { Field } from '../../../components/Field';
-import { UserType } from '../../../types/user';
+import { UserType } from '../../../types/UserType';
 
 export const Details = (props:any) => {
     const currentUser: UserType = props.user;

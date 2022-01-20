@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from './components/Header';
 import { Details } from './components/Details';
-import { UserType } from '../../types/user';
+import { UserType } from '../../types/UserType';
 
 export default function PropsExample() {
 
