@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Header } from './components/Header';
-import { Details } from './components/Details';
+import { DetailsBox } from './components/DetailsBox';
 import { UserType } from '../../types/UserType';
 
 
@@ -20,6 +20,6 @@ export default function PropsEditExample() {
   return (
     <div className='page'>
       <Header user={user}></Header>
-      <Details user={user} updateField={updateField}></Details>
+      <DetailsBox user={user} updateField={updateField}></DetailsBox>
     </div>);
 }

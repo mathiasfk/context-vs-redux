@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header } from './components/Header';
-import { Details } from './components/Details';
+import { DetailsBox } from './components/DetailsBox';
 import { UserType } from '../../types/UserType';
 
 export default function PropsExample() {
@@ -14,6 +14,6 @@ export default function PropsExample() {
   return (
     <div className='page'>
       <Header user={user}></Header>
-      <Details user={user}></Details>
+      <DetailsBox user={user}></DetailsBox>
     </div>);
 }

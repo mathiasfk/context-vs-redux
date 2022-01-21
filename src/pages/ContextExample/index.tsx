@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header } from './components/Header';
-import { Details } from './components/Details';
+import { DetailsBox } from './components/DetailsBox';
 import { UserType } from '../../types/UserType';
 import { UserContext } from './context';
 
@@ -16,7 +16,7 @@ export default function ContextExample() {
   <div className='page'>
     <UserContext.Provider value={user}>
       <Header></Header>
-      <Details></Details>
+      <DetailsBox></DetailsBox>
     </UserContext.Provider>
   </div>);
 }

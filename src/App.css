@@ -22,9 +22,16 @@ a {
   flex-direction: column;
 }
 
-.detail {
+.details {
   display: flex;
   flex-direction: column;
+}
+
+.details-box {
+  display: flex;
+  border: solid 2px #E7D2CC;
+  padding: 10px;
+  width: fit-content;
 }
 
 .header {
@@ -40,6 +47,13 @@ a {
 .field-name {
   padding-right: 5px;
   font-weight: 600;
+}
+
+input[type=button] {
+  background-color: #E7D2CC;
+  width: 50%;
+  border: solid black 1px;
+  cursor: pointer;
 }
 
 /*

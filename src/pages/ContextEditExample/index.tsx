@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Header } from './components/Header';
-import { Details } from './components/Details';
+import { DetailsBox } from './components/DetailsBox';
 import { UserType } from '../../types/UserType';
 import { UserContext } from './context';
 import { UserContextType } from '../../types/UserContextType';
@@ -23,7 +23,7 @@ export default function ContextEditExample() {
   <div className='page'>
     <UserContext.Provider value={userContext}>
       <Header></Header>
-      <Details></Details>
+      <DetailsBox></DetailsBox>
     </UserContext.Provider>
   </div>);
 }

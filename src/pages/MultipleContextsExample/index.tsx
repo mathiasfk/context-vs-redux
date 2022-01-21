@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Header } from './components/Header';
-import { Details } from './components/Details';
+import { DetailsBox } from './components/DetailsBox';
 import { UserType } from '../../types/UserType';
 import { UserContext } from './contexts/UserContext';
 import { CountContext } from './contexts/CountContext';
@@ -35,7 +35,7 @@ export default function MultipleContextsExample() {
     <UserContext.Provider value={userContext}>
       <CountContext.Provider value={countContext}>
         <Header></Header>
-        <Details></Details>
+        <DetailsBox></DetailsBox>
       </CountContext.Provider>
     </UserContext.Provider>
   </div>);
