@@ -8,6 +8,8 @@ import ContextExample from './pages/ContextExample';
 import PropsEditExample from './pages/PropsEditExample';
 import ContextEditExample from './pages/ContextEditExample';
 import MultipleContextsExample from './pages/MultipleContextsExample';
+import Redux101 from './pages/Redux101';
+import ReactRedux from './pages/ReactRedux';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +21,8 @@ ReactDOM.render(
         <Route path="/props-edit" element={<PropsEditExample/>}/>
         <Route path="/context-edit" element={<ContextEditExample/>}/>
         <Route path="/multiple-contexts" element={<MultipleContextsExample/>}/>
+        <Route path="/redux101" element={<Redux101/>}/>
+        <Route path="/react-redux" element={<ReactRedux/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

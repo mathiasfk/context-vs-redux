@@ -20,6 +20,12 @@ function App() {
       <div className="Link">
         <Link to="/multiple-contexts">Multiple contexts</Link>
       </div>
+      <div className="Link">
+        <Link to="/redux101">Redux 101</Link>
+      </div>
+      <div className="Link">
+        <Link to="/react-redux">Redux Redux</Link>
+      </div>
     </div>
   );
 }
